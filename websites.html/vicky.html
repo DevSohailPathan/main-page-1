@@ -4,9 +4,14 @@
 <head>
     <title>Document</title>
     <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
         .main-container {
             width: 100vw;
             height: 100vh;
+            scrollbar-width: 100%;
         }
 
         .header {
@@ -15,6 +20,7 @@
             background-color: aliceblue;
             display: flex;
             flex-direction: row;
+            position: fixed;
             justify-content: end;
             gap: 3%;
         }
@@ -134,11 +140,11 @@
         .headline {
             display: flex;
             flex-direction: column;
-           justify-content: end;
-           padding-top: 90%;
-           padding-left: 20px;
-           font-size: 20px;
-           color: white;
+            justify-content: end;
+            padding-top: 97%;
+            padding-left: 20px;
+            font-size: 20px;
+            color: white;
         }
 
         .sp {
@@ -253,39 +259,302 @@
         }
 
         .s-six {
+            height: 80%;
+            width: 97%;
+            background-color: rgb(112, 10, 10);
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .photo-1 {
             height: 100%;
+            width: 20%;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(156, 156, 156);
+
+        }
+
+        .photo-2 {
+            height: 100%;
+            width: 20%;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(155, 155, 155);
+        }
+
+        .photo-3 {
+            height: 100%;
+            width: 20%;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(154, 154, 154);
+        }
+
+        .photo-4 {
+            height: 100%;
+            width: 20%;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(154, 154, 154);
+        }
+
+        .photo-5 {
+            height: 100%;
+            width: 20%;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(155, 155, 155);
+        }
+
+        .photo-2-1 {
+            height: 50%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(155, 155, 155);
+        }
+
+        .photo-2-2 {
+            height: 50%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(154, 154, 154);
+        }
+
+        .photo-3-1 {
+            height: 50%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(156, 156, 156);
+        }
+
+        .photo-3-2 {
+            height: 50%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(155, 155, 155);
+        }
+
+        .photo-4-1 {
+            height: 50%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(156, 156, 156);
+        }
+
+        .photo-4-2 {
+            height: 50%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(154, 154, 154);
+        }
+
+        .photo-5-1 {
+            height: 50%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(155, 155, 155);
+        }
+
+        .photo-5-2 {
+            height: 50%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(155, 155, 155);
+        }
+
+        .images {
+            height: 75%;
+            width: 90%;
+            padding-top: 20px;
+            padding-left: 20px;
+
+        }
+
+        h1 {
+            font-size: 60px;
+            padding-left: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .s-seven {
+            height: 10%;
             width: 100%;
             background-color: rgb(255, 255, 255);
         }
 
-        table {
+        .kh {
+            height: 2%;
+            width: 80%;
+            background-color: black;
+            margin-left: 10%;
+
+        }
+
+        b {
+            font-size: 20px;
+        }
+
+        .s-eight {
+            height: 70%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .f {
             height: 100%;
-            width: 98%;
-            border: 1px solid black;
-            border-collapse: collapse;
+            width: 18%;
+            background-color: rgb(255, 255, 255);
         }
 
-        tr,
-        td {
-            height: 50%;
-            height: 50%;
-            border: 1px solid black;
+        .g {
+            height: 100%;
+            width: 18%;
+            background-color: rgb(255, 255, 255);
         }
 
-        h1 {
-            padding-bottom: 60%;
-            text-align: center;
-            font-size: 60px;
-
+        .h {
+            height: 100%;
+            width: 18%;
+            background-color: rgb(255, 255, 255);
         }
 
-        .line {
-            padding-bottom: 23%;
-            font-size: 19px;
+        .i {
+            height: 100%;
+            width: 18%;
+            background-color: rgb(255, 255, 255);
         }
 
-        .photo {
-            padding-left: 20px;
+        .j {
+            height: 100%;
+            width: 18%;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .imagess {
+            height: 59%;
+            width: 100%;
+        }
+
+        .imagesss {
+            height: 40%;
+            width: 100%;
+        }
+
+        .s-nine {
+            height: 80%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .k {
+            height: 100%;
+            width: 18%;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .l {
+            height: 100%;
+            width: 18%;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .m {
+            height: 100%;
+            width: 18%;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .n {
+            height: 100%;
+            width: 18%;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .o {
+            height: 100%;
+            width: 18%;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .ten {
+            height: 80%;
+            width: 100%;
+           
+        }
+
+        .p {
+            height: 55%;
+            width: 100%;
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            flex-direction: row;
+        }
+
+        .q {
+            height: 45%;
+            width: 100%;
+            background-color: rgb(0, 0, 0);
+           text-align: center;
+           padding-top:5%;
+           font-size:200PX;
+           color: white;
+        
+        }
+
+        .p-1 {
+            height: 100%;
+            width: 15%;
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+
+        .p-2 {
+            height: 100%;
+            width: 15%;
+            background-color: rgb(0, 0, 0);
+             color: white;
+        }
+
+        .p-3 {
+            height: 100%;
+            width: 15%;
+            background-color: rgb(0, 0, 0);
+             color: white;
+        }
+
+        .p-4 {
+            height: 100%;
+            width: 15%;
+            background-color: rgb(0, 0, 0);
+             color: white;
+        }
+
+        .p-5 {
+            height: 100%;
+            width: 40%;
+            background-color: rgb(0, 0, 0);
+             color: white;
+        }
+
+        .appp {
+            padding-left: 52px;
+             color: white;
+        }
+
+        .app {
+            padding-left: 52px;
+            font-family: cursive;
+            font-size: 40px;
+             color: white;
+        }
+        button{
+            height: 60px;
+            width: 60%;
+           border-radius: 40%;
+           font-size: 30px;
         }
     </style>
 </head>
@@ -361,19 +630,20 @@
         <div class="d-three">
             <div class="sp"
                 style="background-image: url(https://spaces.is/media/pages/loversmagazine/79b0b07b3e-1723031519/scout-796x995-crop-q90.webp); background-position: center; background-size: cover;"
-                height="100%" width="100%"><span class="headline"> Scout  <br> <br>Connecting exceptional companies
+                height="100%" width="100%"><span class="headline"> Scout <br> <br>Connecting exceptional companies
                     with
-                    exceptional talent</span></div>
+                    exceptional <br> talent.</span></div>
             <div class="ss"
                 style="background-image: url(https://spaces.is/media/pages/loversmagazine/8e1caa771f-1723031652/culture-ad-796x995-crop-q90.webp); background-position: center; background-size: cover;"
-                height="100%" width="100%"><span class="headline"> Culture  <br> <br>   The Glassdoor alternative
+                height="100%" width="100%"><span class="headline"> Culture <br> <br> The Glassdoor alternative
                     . A platporm that Showcases the best companies.
-                   </span></div>
+                </span></div>
             <div class="sd"
                 style="background-image: url(https://spaces.is/media/pages/loversmagazine/3a15143e02-1723031724/studios-ad-796x995-crop-q90.webp); background-position: center; background-size: cover;"
-                height="100%" width="100%"><span class="headline"> Studio  <br> <br>Browse and hire the perfect design   studio for you next  project.
+                height="100%" width="100%"><span class="headline"> Studio <br> <br>Browse and hire the perfect design
+                    studio for you next project.
                     with
-                    exceptional talent</span></div>
+                    exceptional talent.</span></div>
         </div>
         <!-- s-four -->
         <div class="s-four">
@@ -423,8 +693,166 @@
                 </div>
             </div>
         </div>
+        <br><br><br>
+        <!-- s-six -->
         <div class="s-six">
+            <div class="photo-1">
+                <h1>Mixes put together by your favourite designers.</h1>
+            </div>
 
+            <div class="photo-2">
+                <div class="photo-2-1">DESIGNER MIX.<span style="margin-left: 50%;"></span> #607</span><img
+                        class="images"
+                        src="https://spaces.is/media/pages/loversmagazine/interviews/alex-khomutov/1f14139277-1752068464/601.alex-khomutov-350x350-crop-q90.webp"
+                        alt=""> <br>
+                    <h3 style="padding-left: 13px;">Alex khomutov</h3>
+                </div>
+                <div class="photo-2-2">DESIGNER MIX.<span style="margin-left: 50%;"></span> #606</span><img
+                        class="images"
+                        src="https://spaces.is/media/pages/loversmagazine/interviews/rauno-freiberg/1b0fc4b625-1751999529/600.rauno-freiberg-350x350-crop-q90.webp"
+                        alt=""><br>
+                    <h3 style="padding-left: 13px;">Rauno Freiberg</h3>
+                </div>
+            </div>
+            <div class="photo-3">
+                <div class="photo-3-1">DESIGNER MIX.<span style="margin-left: 50%;"></span> #605</span><img
+                        class="images"
+                        src="https://spaces.is/media/pages/loversmagazine/interviews/amelie-schluter/09648cc77d-1751632350/599.amelie-schluter-350x350-crop-q90.webp"
+                        alt=""><br>
+                    <h3 style="padding-left: 13px;">Amelie Schluter</h3>
+                </div>
+                <div class="photo-3-2">DESIGNER MIX.<span style="margin-left: 50%;"></span> #604</span><img
+                        class="images"
+                        src="https://spaces.is/media/pages/loversmagazine/interviews/benoit-lemoine/ed9bd97e1e-1751625163/598.benoit-lemoine-350x350-crop-q90.webp"
+                        alt=""><br>
+                    <h3 style="padding-left: 13px;">Benoit Lemoine</h3>
+                </div>
+            </div>
+            <div class="photo-4">
+                <div class="photo-4-1">DESIGNER MIX.<span style="margin-left: 50%;"></span> #603</span><img
+                        class="images"
+                        src="https://spaces.is/media/pages/loversmagazine/interviews/ryan-fan/b1672c8ed8-1751479789/147192368864-350x350-crop-q90.webp"
+                        alt=""><br>
+                    <h3 style="padding-left: 13px;">Ryan Fan</h3>
+                </div>
+                <div class="photo-4-2">DESIGNER MIX.<span style="margin-left: 50%;"></span> #602</span><img
+                        class="images"
+                        src="https://spaces.is/media/pages/loversmagazine/interviews/sergey-lisovskiy/6c095c4e7d-1749207122/597.sergey-lisovskiy-350x350-crop-q90.webp"
+                        alt=""><br>
+                    <h3 style="padding-left: 13px;">Sergery Lisovskiy</h3>
+                </div>
+            </div>
+            <div class="photo-5">
+                <div class="photo-5-1">DESIGNER MIX.<span style="margin-left: 50%;"></span> #601</span><img
+                        class="images"
+                        src="https://spaces.is/media/pages/loversmagazine/interviews/sebastian-waters/699189ad24-1748524021/596.sebastian-waters-350x350-crop-q90.webp"
+                        alt=""><br>
+                    <h3 style="padding-left: 13px;">Sabastian Water</h3>
+                </div>
+                <div class="photo-5-2">DESIGNER MIX.<span style="margin-left: 50%;"></span> #600</span><img
+                        class="images"
+                        src="https://spaces.is/media/pages/loversmagazine/interviews/emma-piercy/76c0c6bde5-1747912837/595.emma-piercy-350x350-crop-q90.webp"
+                        alt=""><br>
+                    <h3 style="padding-left: 13px;">Emma Piercy</h3>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <!-- s-seven -->
+        <div class="s-seven"><br>
+            <b>Popular Interviews</b>
+            <div class="kh"></div>
+        </div>
+        <!-- s-eight -->
+        <div class="s-eight">
+            <div class="f"><img class="imagess"
+                    src="https://spaces.is/media/pages/loversmagazine/interviews/elsie-ng/a475d23f9e-1704123853/elsie-ng-copy-366x549-crop-x-0-5-y-0-5-q90.webp"
+                    alt=""> <br><br>PRODUCT DESIGNER <br> <br><b>Elise NG-Ripple</b><br> <br>Product Designer from
+                Toronto,
+                working at Ripple in San Francisco. Loves bouldering and collecting old, obscure, retro …</div>
+            <div class="g"><img class="imagess"
+                    src="https://spaces.is/media/pages/loversmagazine/interviews/edo-van-dijk/b6e556291a-1704123857/edo-van-dijk-copy-366x549-crop-x-0-5-y-0-5-q90.webp"
+                    alt=""> <br><br>CEATIVE DIRECTOR <br> <br><b>Edvo van Dijk- <br>Edenspiekermann</b><br>
+                <br>Co-founder of design agency Edenspiekermann, currently CEO and Creative Director at their Singapore
+                office. Designer by …
+
+
+            </div>
+            <div class="h"> <img class="imagesss"
+                    src="https://spaces.is/media/pages/loversmagazine/interviews/rafael-conde/2a4f0723ff-1704123852/rafael-conde-366x366-crop-q90.webp"
+                    alt=""> <br><br>PRODUCT DESIGNER<br> <br><b>Rafel Conde</b> He/Them <b> <br>-Sketch</b><br> <br>Rafa
+                is a product designer and an independent app developer. </div>
+            <div class="i"> <img class="imagesss"
+                    src="https://spaces.is/media/pages/loversmagazine/interviews/sigit-adinugroho/ad0d1f0bfd-1704123848/sigit-adinugroho-366x366-crop-q90.webp"
+                    alt=""> <br><br>PRODUCT DESIGNER <br> <br><b>Sigit Adinugroho-Tripadvisor</b><br> <br>Product
+                designer with passion in designing for different markets and audiences. Currently at Tripadvisor, with …
+            </div>
+            <div class="j"> <img class="imagesss"
+                    src="https://spaces.is/media/pages/loversmagazine/interviews/jesse-ragan/b03318e919-1704123845/jesse-ragan-366x366-crop-q90.webp"
+                    alt=""> <br><br> TYPE DESIGNER <br> <br><b>Jesse Rahan-XYZ- Type</b><br> <br>Jesse Ragan designs a
+                broad range of typefaces for XYZ Type, which he and Ben Kiel launched in 2017. Beyond making … </div>
+        </div>
+        <br><br><br>
+        <!-- s-nine -->
+        <div class="s-nine">
+            <div class="k"><img class="imagesss"
+                    src="https://spaces.is/media/pages/loversmagazine/interviews/rich-o-brien/650e8f83b8-1704123840/rich-o-brien-366x366-crop-x-0-5-y-0-5-q90.webp"
+                    alt=""><br><br> PRODUCT DESIGNER<br> <br><b>Rich O'Brien-Gladeye</b><br> <br>Lover of heavy metal,
+                design and the outdoors, Rich crafts meaningful digital experiences in the beautiful New Zealand. …
+            </div>
+            <div class="l"><img class="imagess"
+                    src="https://spaces.is/media/pages/loversmagazine/interviews/dan-tase/c9d2a7d228-1712223617/dan-tase-profile-366x549-crop-44-1-39-9-q90.webp"
+                    alt=""><br><br> DESIGNE DIRECTOR<br> <br><b>Dan Tase</b>he/Her <b>-Freelance</b><br> <br>Fractional
+                Design
+                Director. Previously led design at Farfetch, Fresha & Just Eat</div>
+            <div class="m"><img class="imagess"
+                    src="https://spaces.is/media/pages/loversmagazine/interviews/alex-colley/cfdf9e5578-1704123845/alex-colley-366x549-crop-q90.webp"
+                    alt=""><br><br> CREATIVE DIRECTOR <br> <br><b>Alex colley-ikon</b><br> <br>Founder & Creative
+                Director of ikon, a Boutique Branding & Creative Agency specialising in design for affluent …</div>
+            <div class="n"><img class="imagess"
+                    src="https://spaces.is/media/pages/loversmagazine/interviews/benjamin-ong/e62483d816-1704123846/benjamin-ong-366x549-crop-q90.webp"
+                    alt=""><br><br> CREATIVE DIRECTOR<br> <br><b>Ben Ong- wild-studio.com</b><br> <br>I'm a Creative
+                Director
+                based in Singapore who enjoys "making things" for the digital age.</div>
+            <div class="o"><img class="imagesss"
+                    src="https://spaces.is/media/pages/loversmagazine/interviews/kenny-chen/f067da037c-1704123841/kenny-chen-366x366-crop-q90.webp"
+                    alt=""><br><br> PRODUCT DESIGNER <br> <br><b>KENNY Chen-Google/b><br> <br>Kenny is a designer
+                    based in Orange County, and is working on business intelligence tools at Google while curating for …
+            </div>
+        </div>
+        <div class="ten">
+            <div class="p">
+                <div class="p-1"> <br>
+                    <p style="padding-left: 52px;">COMPANY </p>  <br><b style="padding-left: 52PX;">HOME <br> <br></b><b
+                        style="padding-left: 52px;">ABOUT</b>
+                </div>
+                <div class="p-2"><br>
+                    <p style="padding-left: 52px;">ECOSYSTEM </p> <br><b style="padding-left: 52PX;">Culture <br> <br></b><b
+                        style="padding-left: 52px;">Lovers Magzaine <br> <br></b><b style="padding-left: 52px;">Scout
+                        <br> <br>   </b> <b style="padding-left: 52px;">Studio</b>
+                </div>
+                <div class="p-3"><br>
+                    <p style="padding-left: 52px;">CONNECT </p> <br><b style="padding-left: 52PX;">Email<br> <br></b><b
+                        style="padding-left: 52px;">Instagram <br> <br></b> <b style="padding-left: 52px;">X/Twiter</b>
+                </div>
+                <div class="p-4"><br>
+                    <p style="padding-left: 52px;">LEGAL</p> <br><b style="padding-left: 52PX;">Privacy <br> <br></b><b
+                        style="padding-left: 52px;">Terms</b>
+                </div>
+                <div class="p-5"><br>
+                    <p class="appp"> SUBSCRIBE </p>
+                    <b class="app">Keep your finger on <br> the pulse. <br> <br></b>A newsletter to uncover bright
+                    opportunities, connect with standout <br> creatives, and explore stories shaping culture, design, and
+                    tech.
+                    <br><br>
+                    <br>
+                    <button>Subscribe to Puls</button>
+                </div>
+            </div>
+         <div class="q">  <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1602 326">
+  <path d="M136.463 324.596C63.9858 324.596 7.03973 281.478 1 219.149l49.1807-8.538c2.5884 41.41 39.2583 71.721 87.1443 71.721 40.984 0 67.732-21.773 67.732-49.521 0-22.2-16.825-35.434-57.809-44.399l-45.298-9.819c-59.1033-13.234-86.2821-38.848-86.2821-81.9658C15.6679 40.7024 61.3973 1 126.109 1 184.78 1 230.51 35.5795 238.275 86.3814l-47.886 11.5265c-3.02-32.4449-29.336-54.6441-64.28-54.6441-34.9444 0-58.6719 19.2108-58.6719 46.106 0 22.6262 14.6679 34.5792 49.6119 42.6902l46.161 9.819c61.692 12.381 92.753 40.13 92.753 83.674 0 58.059-48.318 99.043-119.5 99.043ZM280.924 313.923V11.6727h130.717c66.869 0 114.755 39.7023 114.755 95.2003s-47.886 95.2-114.755 95.2h-80.242v111.85h-50.475Zm50.475-154.54h77.222c38.396 0 66.437-21.773 66.437-52.51 0-31.1643-27.178-52.9365-66.437-52.9365h-77.222V159.383ZM495.921 313.923 611.539 11.6727h62.123L788.848 313.923h-54.789L709.9 246.898H575.732l-25.022 67.025h-54.789Zm92.322-108.435h108.715L643.032 58.2055h-.863L588.243 205.488ZM940.903 324.596c-99.655 0-163.504-63.183-163.504-161.798C777.399 64.1822 837.796 1 931.843 1c69.457 0 122.517 41.41 136.327 106.727l-48.75 11.526c-8.2-44.825-41.416-73.4278-87.577-73.4278-62.554 0-102.675 45.6791-102.675 116.9728 0 71.72 44.435 117.399 111.735 117.399 55.221 0 95.777-35.433 104.397-90.504l49.18 10.246c-11.21 76.416-71.18 124.657-153.577 124.657ZM1119.54 313.923V11.6727h210.96v43.5445h-160.91v83.2468h143.66v40.556h-143.66v91.358h165.23v43.545h-215.28ZM1481.5 324.596c-72.48 0-129.42-43.118-135.46-105.447l49.18-8.538c2.59 41.41 39.26 71.721 87.14 71.721 40.99 0 67.73-21.773 67.73-49.521 0-22.2-16.82-35.434-57.81-44.399l-45.29-9.819c-59.11-13.234-86.29-38.848-86.29-81.9658C1360.7 40.7024 1406.43 1 1471.15 1c58.67 0 104.4 34.5795 112.16 85.3814l-47.88 11.5265c-3.02-32.4449-29.34-54.6441-64.28-54.6441-34.95 0-58.68 19.2108-58.68 46.106 0 22.6262 14.67 34.5792 49.62 42.6902l46.16 9.819c61.69 12.381 92.75 40.13 92.75 83.674 0 58.059-48.32 99.043-119.5 99.043Z" stroke="#F5F5F5"></path>
+</svg></div>
         </div>
     </div>
 
